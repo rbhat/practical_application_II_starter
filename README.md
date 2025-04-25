@@ -60,7 +60,7 @@ The goal of this project is to predict used car prices accurately to help a car 
   - PCA revealed that 100 components captured only 23.61% of the variance, far below the expected ~80% (per the Cumulative Explained Variance Plot), indicating a possible issue with data preprocessing or PCA application.
   - Cross-validation results showed low `R²` (0.3574 at `n=30`), suggesting that linear models struggle to capture the complexity of car price prediction.
 
-### Clearly Stated Findings in Their Own Section
+### Findings
 **Key Findings**:
 - The best model, Lasso Regression with 30 PCA components, achieved an `R²` of 0.3574 and an `RMSE` of $10,456.
 - **For Stakeholders**:
